@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%; /* full window width */
+    text-align: center;
+}
+ /*This includes all the stuff in the header. */
+ nav {
+    float: right;
+ }
+header {
+    
+    padding: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a0742;
+    color: rgb(255, 255, 255);
+   
+   
+
+}
+
+header h1 {
+    box-sizing: border-box;
+    font-size: 400%;
+box-shadow: 10px 5px 5px rgb(8, 25, 102);
+padding-left: 0%;
+background-color: rgb(255, 251, 240);
+color:rgb(0, 0, 0);
+display: flex;
+    float: left;
+    align-items: center;
+}
+
+header h2 {
+display: inline-block;
+text-indent: 60px;
+text-decoration: underline;
+
+}
+
+.hero {
+    height: 800px;
+    width: 99.5%;
+    margin-bottom: 25px;
+    background-image:url('images/design.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    
+    width: 100%; /* full window width */
+    text-align: center;
+}
+
+aside {
+float: right;
+
+}
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
