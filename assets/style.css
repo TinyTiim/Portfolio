@@ -138,6 +138,120 @@ article {
 a {
     color:#7b5db1;
 }
+ .container {
+    display:flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+   
+ 
+ }
+
+
+ 
+ .container2 {
+    display:flex;
+    flex-wrap: wrap;
+    width: 250px;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+  
+ }
+
+ .container3 {
+    display:flex;
+    flex-wrap: wrap;
+    width: 250px;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+  
+ }
+
+
+ .flex-item {
+    
+    background-color: aliceblue;
+    background-image:url('./images/design-resume.jpeg');
+    width:500px;
+    background-size: 100% 100%;
+    opacity: 40%;
+ }
+
+ .flex-item:hover {
+   
+        transition: 0.6s;
+        background-image:url('./images/design-resume.jpeg');
+       opacity: 100%;
+ }
+    .flex-item a {
+
+        
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        background-color: #A084DC;
+        color: #ffffff;
+
+    }
+
+ 
+ .flex-item2 {
+    
+    background-color: aliceblue;
+    background-image:url('./images/design-project.png');
+    width: 250px;
+    background-size: 100% 100%;
+    opacity: 40%;
+ }
+
+ .flex-item2:hover {
+   
+    transition: 0.6s;
+    background-image:url('./images/design-project.png');
+   opacity: 100%;
+
+}
+ .flex-item2 a {
+
+        
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #A084DC;
+    color: #ffffff;
+
+}
+
+.flex-item3 {
+    
+    background-color: aliceblue;
+    background-image:url('./images/design-github.jpg');
+    width: 250px;
+    background-size: 100% 100%;
+    opacity: 40%;
+ }
+
+ .flex-item3:hover {
+   
+    transition: 0.6s;
+    background-image:url('./images/design-github.jpg');
+   opacity: 100%;
+
+}
+ .flex-item3 a {
+
+        
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #A084DC;
+    color: #ffffff;
+
+}
 
 aside {
 
@@ -168,4 +282,51 @@ footer h2:hover {
     text-shadow: 1px 0px 20px #fb80ff;
     transition: 1s linear 0s;
     outline: 0 none;
-       }
+}
+/*This is for the scrren size */
+     
+@media screen and (min-width: 500px) { 
+   
+      
+    aside {
+        font-size:  20px;  
+    }
+    
+ }
+
+
+@media screen and (min-width: 576px) { 
+   
+      
+    aside {
+        font-size:  25px;  
+    }
+ }
+
+
+@media screen and (min-width: 768px) { 
+   
+      
+    aside {
+        font-size: 30px; 
+    }
+ }
+
+
+@media (min-width: 992px) { 
+   
+    aside {
+        font-size: 30px; 
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+   
+        aside {
+            font-size: 30px; 
+            
+    }
+ }
+
+
